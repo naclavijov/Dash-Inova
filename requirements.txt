@@ -1,4 +1,4 @@
-dash=2.12.1
+dash==2.12.1
 dash-bootstrap-components
 dash-bootstrap-templates
 dash-daq
