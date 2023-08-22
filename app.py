@@ -77,7 +77,7 @@ import json
 # Marcel
 # f = open('G:\.shortcut-targets-by-id/17VwseeFoNRQuVF9viXYxvir2WWNhCOGG/Innova/projetos-inova-jan-2023.json')
 # f = open('G:\.shortcut-targets-by-id/17VwseeFoNRQuVF9viXYxvir2WWNhCOGG/Innova/projetos-innova-Julho23.json')
-f = open('data/projetos-innova-Julho23.json'
+f = open('data/projetos-innova-Julho23.json')
 data = json.load(f)
 
 li = []
