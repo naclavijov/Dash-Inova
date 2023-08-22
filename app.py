@@ -706,6 +706,8 @@ app = dash.Dash(__name__)
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, FA])
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME])
 
+server = app.server
+
 
 predict_button = dbc.Card(
     className="mt-auto",
