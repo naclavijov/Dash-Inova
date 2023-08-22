@@ -76,8 +76,8 @@ import json
 
 # Marcel
 # f = open('G:\.shortcut-targets-by-id/17VwseeFoNRQuVF9viXYxvir2WWNhCOGG/Innova/projetos-inova-jan-2023.json')
-f = open('G:\.shortcut-targets-by-id/17VwseeFoNRQuVF9viXYxvir2WWNhCOGG/Innova/projetos-innova-Julho23.json')
-
+# f = open('G:\.shortcut-targets-by-id/17VwseeFoNRQuVF9viXYxvir2WWNhCOGG/Innova/projetos-innova-Julho23.json')
+f = open('data/projetos-innova-Julho23.json'
 data = json.load(f)
 
 li = []
@@ -347,7 +347,7 @@ gk6 = df_c.groupby(['field_unidade_da_fiocruz:name']).agg({'field_total_de_recur
 gk6 = gk6.sort_values(by=['id'],ascending=False)
 fig=make_subplots(specs=[[{"secondary_y":True}]])
 
-with open('ShortNames_FioCruz2.json') as json_file:
+with open('data/ShortNames_FioCruz2.json') as json_file:
     ShortNames_Fiocruz = json.load(json_file)
 
 def figure7():
