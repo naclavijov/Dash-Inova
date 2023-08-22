@@ -701,10 +701,10 @@ def figure12():
 df_completo_ = df_completo.copy()
 
 #app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
-# app = dash.Dash(__name__)
+app = dash.Dash(__name__)
 # FA = "https://use.fontawesome.com/releases/v6.4.0/css/all.css"
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, FA])
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME])
+# app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME])
 
 
 predict_button = dbc.Card(
